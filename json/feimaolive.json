@@ -1,0 +1,16 @@
+[
+  {
+    "name": "福利",
+    "url": "./sjfl.txt"
+  },
+  
+  {
+    "name": "央卫",
+    "url": "./央卫直播.txt"
+  },
+  
+  {
+    "name": "myTV",
+    "url": "./myTV.txt"
+  }
+]

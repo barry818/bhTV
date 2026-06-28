@@ -1419,35 +1419,36 @@
   ],
   "lives": [
     {
-			"name": "myTV在线",
-			"type": 0,
-			"url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
-			"timeout": 10
-		},
-    
-    {
-      "name": "jackTV",
       "type": 0,
-      "url": "./lives/jackTV.m3u",
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+      "name": "migu接口",
+      "playerType": 2,
+      "ua": "okHttp/Mod-1.0.1",
+      "url": "https://wget.la/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png"
     },
     {
-      "name": "拾光",
       "type": 0,
-      "url": "./lives/拾光.txt",
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+      "name": "咪咕接口",
+      "playerType": 2,
+      "ua": "okHttp/Mod-1.0.1",
+      "url": "http://www.52top.com.cn:678/downloads/migu.txt",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png"
     },
     {
-      "name": "白嫖军团",
       "type": 0,
-      "url": "./lives/白嫖军团.txt",
-      "epg": "http://diyp2.112114.xyz/?ch={name}&date={date}"
+      "name": "web1接口",
+      "playerType": 2,
+      "ua": "okHttp/Mod-1.0.1",
+      "url": "https://gongdian.top/tv/ku9/webview.txt#JS=https://gongdian.top/tv/ku9/js/webview.js",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png"
     },
     {
-      "name": "ZBDS",
       "type": 0,
-      "url": "./lives/ZBDS.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}"
+      "name": "DG接口",
+      "playerType": 2,
+      "ua": "okHttp/Mod-1.0.1",
+      "url": "http://1.94.31.214/live/live9/dgtv.txt",
+      "logo": "https://gcore.jsdelivr.net/gh/taksssss/tv/icon/{name}.png"
     }
   ],
   "parses": [

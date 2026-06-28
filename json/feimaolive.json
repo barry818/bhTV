@@ -10,5 +10,9 @@
   {
     "name": "DG接口",
     "url": "http://1.94.31.214/live/live9/dgtv.txt"
+  },
+  {
+    "name": "福利",
+    "url": "./json/sjfl.txt"
   }
 ]

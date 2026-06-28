@@ -5,7 +5,7 @@
   "sites": [
     {
       "key": "Douban",
-      "name": "💬豆瓣｜主页",
+      "name": "💬豆瓣｜H版",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0,
@@ -34,6 +34,14 @@
       "quickSearch": 1,
       "filterable": 1,
       "playerType": 2
+    },
+	  {
+      "key": "直播转点播",
+      "name": "📺点播｜电视",
+      "type": 3,
+      "searchable": 1,
+      "api": "./js/live2vod.js",
+      "ext": "./json/feimaolive.json"
     },
         
         {
@@ -398,7 +406,7 @@
     
     {
       "key": "36直播",
-      "name": "🈲36直播｜禁",
+      "name": "🔞36直播｜禁",
       "type": 3,
       "api": "./js/drpy2.min.js",
       "searchable": 1,
@@ -409,7 +417,7 @@
     },
     {
       "key": "S播聚合",
-      "name": "🈲涩播｜禁",
+      "name": "🔞涩播聚合｜禁",
       "type": 3,
       "searchable": 1,
       "quickSearch": 1,
@@ -418,18 +426,11 @@
       "order_num": 5,
       "ext": ""
     },
-    {
-      "key": "点播",
-      "name": "🈲点播｜禁",
-      "type": 3,
-      "searchable": 1,
-      "api": "./js/live2vod.js",
-      "ext": "./json/feimaolive.json"
-    },
+
     
     {
             "key": "套吧",
-            "name": "🈲套吧｜禁",
+            "name": "🔞套吧｜禁",
             "type": 3,
             "api": "csp_XBPQ",
             "jar": "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",

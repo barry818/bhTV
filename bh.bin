@@ -1,6 +1,6 @@
 {
   "logo": "./jar/logo.gif",
-  "wallpaper" : "https://饭的动态壁纸.xxooo.cf/",
+  "wallpaper": "https://饭的动态壁纸.xxooo.cf/",
   "spider": "./jar/spider.jar",
   "sites": [
     {
@@ -10,20 +10,19 @@
       "api": "csp_Douban",
       "searchable": 0,
       "filterable": 1,
-      "ext" : "./json/douban.json"
+      "ext": "./json/douban.json"
     },
-	  {
-            "key": "CNTV",
-            "name": "📺央视｜电视",
-            "type": 3,
-            "api": "csp_CntvSpider",
-            "style": {
-                "type": "rect",
-                "ratio": 1.433
-            },
-            "changeable": 1
-        },
-
+    {
+      "key": "CNTV",
+      "name": "📺央视｜电视",
+      "type": 3,
+      "api": "csp_CntvSpider",
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "changeable": 1
+    },
     {
       "key": "央聚",
       "name": "📺央聚｜电视",
@@ -35,7 +34,7 @@
       "filterable": 1,
       "playerType": 2
     },
-	  {
+    {
       "key": "直播转点播",
       "name": "📺点播｜电视",
       "type": 3,
@@ -43,42 +42,41 @@
       "api": "./js/live2vod.js",
       "ext": "./json/feimaolive.json"
     },
-        
-        {
-            "key": "腾讯视频",
-            "name": "💥腾讯｜官方",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./py/腾讯.png"
-        },
-        {
-            "key": "爱奇艺视频",
-            "name": "💥奇艺｜官方",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./py/爱奇艺.png"
-        },
-        {
-            "key": "优酷视频",
-            "name": "💥优酷｜官方",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./py/优酷.png"
-        },
-        {
-            "key": "芒果视频",
-            "name": "💥芒果｜官方",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./py/芒果.png"
-        },
-        {
-            "key": "哔哩哔哩",
-            "name": "💥B站｜官方",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./py/B站.png"
-        },
+    {
+      "key": "腾讯视频",
+      "name": "💥腾讯｜官方",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./py/腾讯.png"
+    },
+    {
+      "key": "爱奇艺视频",
+      "name": "💥奇艺｜官方",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./py/爱奇艺.png"
+    },
+    {
+      "key": "优酷视频",
+      "name": "💥优酷｜官方",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./py/优酷.png"
+    },
+    {
+      "key": "芒果视频",
+      "name": "💥芒果｜官方",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./py/芒果.png"
+    },
+    {
+      "key": "哔哩哔哩",
+      "name": "💥B站｜官方",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./py/B站.png"
+    },
     {
       "key": "裤佬免扫",
       "name": "💎裤佬｜视频",
@@ -88,7 +86,7 @@
       "playerType": 2,
       "ext": "7lj763gg0939790h44298182lk5j9k99k2g4ih53jl9i376l514k16hilj0443400h9k4jgh8312j1912818glikl7lh1jk9k4222k1kg696igkk32ig6lhj3kl50j08lkl6j0h6gi7k2j31jj0k7i1784l25g757hhkl42i7jg68illihj867l82g53532j62i92kljhj5llh498k24796l57j55ji0ji2g22i501jl541j9j4i68i5j602744l10413k457hl80l91j5l44139j23g64h27k08l5509h202gl84338hi17082hkj5746g298j640i002jk1265h745j289303h6i6j6j15jgkg15485h8g935hk83g9g7j661l4i557jl56h6l0h40i5j9hkiig7066523l2h24gj9k1083g6l2gihh2j5hhgkgij04j8900jhg4l6731hkhij7kk2i594536563674gki85li59jhk79067964197h5k7k2641h03l45074jkkklhik123407146l1i0jk90k1hgl151076ig7i4gi0858h62j37lh8l4hl519ghi7g04h2h900jlj7ll333i736549624gjk8k508g9499gj3jj7050jjhgh4i57326j83301i0kkl88040ih52gj8j0gk0h4g5g7lh561k2gk6k7k56h01598ji23g27k3i17878j92k2gj1l5ih8h0jj73k94g9hl5g7h229i10g099k09l958h3hk18l72h1j43gg7177g4h7ll8987644383606klgh9h4ll42h7293k694kl20j539g6jl17ig655461138jgj7306i1296k3i03586k6l32j5hlik4051187741218271j8j4g3i1h6719877l10k1ijl220i8hlil3j3g129ll3k2i5164lkg12k253kk1h8j5l0gki49jg25hlii704l5ih74439hlj9jih5ki53242ijgh6359i8i5j4h2j2i4581l244j4ij728490hk0k34542916i2lig57836gg7kji3l160234i24hik5g18h790488748j680k5i0l885lj66kjk78j2i57i5021g283ik9g38g62259h1lgi811ihki506k5934g7h737hg9360lll98l4j8i049903l1354lg00019g0934h005h8jjkl60j91k7j74i96h8h26hk59i653209lgj07g1g298k48jllgh00l4i742gi72l27038157gji9j32gh0k5672167k2588h31967l3867g50k503ik403781ki72j47hh4363l0708k4g961k4hl8g4j35ilk143h3424010i165lj612h50k68l61ghl9h80kh874k14ggk2ilg018hi5l1g34262196lkl45ih981jkl42271l4232k93hk8ih3g814i6h63h0g64l300i42il1g0454921j12h4844ii714ih71lg172326009812833h62kj8009kijk5hhg763031235l45h78614l7h9k579h6lj290i98851gll70024834hgj2lg5hk3l905i346gij11kl5j9i7h5j5k12hl061l488k061564g398i2150h9j343901865h7567g874i1gghl5ihg8il8hh0650h6308l2i5053997g8g12g16l3l7h5lhlji71i1i23h0ljl1h14688h7g13987h548h33k34hi6h2i63h424jhl1kik26kl3h60662846j6j0749l8kh95018kl1971j5j5gjk9hg70542391j77hjj65l127627h6h8h0hi003i2hih6h0k9k878lj858k30iljgik0l9248jk25l4h701l6gllhkhi54g24g926jgj884266514056805k2h15hh442i3170ilik20h88i561k0682k04459i154i03ikglg6220i4jii1g32067il925g450k0i1241l3il2jjl6k186gjj53h611il59k650i4kjhi87i798hg6h01g306ig104145ig9h68i092ghhh59jig99j12383792452h44206glk62g67gj204hk874l5li8646g65i9085244i092g70ig9h8657kg0413466ii87k9i32hglh24hi2li7174735i520ik608ilg71292838j5k1h39271ghg5288g930lg6h75626l71h8h5g011k9l9lgk691i04166h7996g452kij4l4l72881k6kl5701jl707hi415j8h3k67576966g2k94k03k0lj31995h2j26hi69jhjji162625l50j7790093hli0jjkh1ll804i3lhh40lk4k240kh48k0k16l544hg033k594gh0l93682l86h35i1i36klhgjg90lkl54746i2k63481h37hilj3ikig52h0j80k5gj6h879lk6g8ll6k616966h59h42l24h824ljj77g6l03kg260i80h2g2k123251j22jg36k5j14781i6197929il9j03k16h4l1i78693g45k64j0jl0k58hj8493h76gj2202470ig12lh2llj2l5k5541k4h506i3hij81lg9i037jgk22i2l3j12j6l394h51ii2ll0022j292h8036767i835k47071jl9illl2gli06524g66984902j6j1h5g788019hl4712032977h41l0k36073ig880g2jgklh26k736180591639h4k2gjk9gl2071h685923kl5363l5lj0ll91901g12kk29hll4280h9h51870j721516j6g66i379g203932726h42g927h19733k237492l8j0jh148gl95048l5524j4j0l2445130153i802169102i14g586h8g64j2lk28492169li3292877837108k7i9557h3jk31il2lklg494lgl4j91jig614216ki68i2j140l1jg03lk16lljg039h21kj313h8jk79h99j2g89j327i7h9052h9hj71721jg927340956k6jl4i7k0430"
     },
-	{
+    {
       "key": "py_枫叶影院",
       "name": "💎枫叶｜采集",
       "type": 3,
@@ -271,33 +269,33 @@
       "type": 3,
       "api": "./py/哔哩直播.py"
     },
-        {
-            "key": "Jzb",
-            "name": "⚽说球｜体育",
-            "type": 3,
-            "api": "csp_Jzb",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            },
-            "gridview": 3,
-            "ext": {
-                "sites": ""
-            }
-        },
-        {
-            "key": "88看球",
-            "name": "⚽88看球｜体育",
-            "type": 3,
-            "api": "csp_Kanqiu",
-            "searchable": 0,
-            "changeable": 0,
-            "gridview": 3,
-            "style": {
-                "type": "list"
-            }
-        },
+    {
+      "key": "Jzb",
+      "name": "⚽说球｜体育",
+      "type": 3,
+      "api": "csp_Jzb",
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      },
+      "gridview": 3,
+      "ext": {
+        "sites": ""
+      }
+    },
+    {
+      "key": "88看球",
+      "name": "⚽88看球｜体育",
+      "type": 3,
+      "api": "csp_Kanqiu",
+      "searchable": 0,
+      "changeable": 0,
+      "gridview": 3,
+      "style": {
+        "type": "list"
+      }
+    },
     {
       "key": "体育聚合",
       "name": "⚽️聚合｜体育",
@@ -334,81 +332,80 @@
       "changeable": 1
     },
     {
-            "key": "枫叶音乐",
-            "name": " 🍁枫叶｜音乐",
-            "type": 3,
-            "api": "./py/枫叶音乐.py",
-            "style": {
-                "type": "rect",
-                "ratio": 1.33
-            },
-            "changeable": 1
-        },
+      "key": "枫叶音乐",
+      "name": " 🍁枫叶｜音乐",
+      "type": 3,
+      "api": "./py/枫叶音乐.py",
+      "style": {
+        "type": "rect",
+        "ratio": 1.33
+      },
+      "changeable": 1
+    },
     {
-            "key": "Cat_听海",
-            "name": "🎻听海｜音乐",
-            "type": 3,
-            "api": "./js/tinghai.js",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 1,
-            "类型": "音乐"
-        },
+      "key": "Cat_听海",
+      "name": "🎻听海｜音乐",
+      "type": 3,
+      "api": "./js/tinghai.js",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 1,
+      "类型": "音乐"
+    },
     {
-            "key": "酷狗",
-            "name": "🐶酷狗｜音乐",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/酷狗.js"
-        },
+      "key": "酷狗",
+      "name": "🐶酷狗｜音乐",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/酷狗.js"
+    },
     {
-            "key": "DG",
-            "name": "🤘DG｜音乐",
-            "type": 3,
-            "api": "./py/dj.py",
-            "searchable": 1,
-            "changeable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "playerType": 2
-        },
-    
-        {
-            "key": "喜马拉雅",
-            "name": "📚喜马｜听书",
-            "type": 3,
-            "api": "./js/喜马拉雅.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-        {
-            "key": "世界听书",
-            "name": "📚世界｜听书",
-            "type": 3,
-            "api": "./js/世界听书.js",
-            "style": {
-                "type": "rect",
-                "ratio": 1
-            },
-            "changeable": 1
-        },
-        {
-            "key": "凤凰FM",
-            "name": "📻凤凰｜广播",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/凤凰FM.js"
-        },
-        {
-            "key": "蜻蜓FM",
-            "name": "📻蜻蜓｜广播",
-            "type": 3,
-            "api": "./js/drpy2.min.js",
-            "ext": "./js/蜻蜓FM.js"
-        },
+      "key": "DG",
+      "name": "🤘DG｜音乐",
+      "type": 3,
+      "api": "./py/dj.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "key": "喜马拉雅",
+      "name": "📚喜马｜听书",
+      "type": 3,
+      "api": "./js/喜马拉雅.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "changeable": 1
+    },
+    {
+      "key": "世界听书",
+      "name": "📚世界｜听书",
+      "type": 3,
+      "api": "./js/世界听书.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "changeable": 1
+    },
+    {
+      "key": "凤凰FM",
+      "name": "📻凤凰｜广播",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/凤凰FM.js"
+    },
+    {
+      "key": "蜻蜓FM",
+      "name": "📻蜻蜓｜广播",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/蜻蜓FM.js"
+    },
     {
       "key": "急救教学",
       "name": "🚑急救｜教学",
@@ -436,17 +433,17 @@
       },
       "ext": "./json/market.json"
     },
-	{
+    {
       "key": "警示1",
       "name": "#-#-#-#-#-#-#-#",
       "type": 3,
-      "api": "",
+      "api": ""
     },
-	{
+    {
       "key": "警示2",
       "name": "#-#-#-#-#-#-#-#",
       "type": 3,
-      "api": "",
+      "api": ""
     },
     {
       "key": "36直播",
@@ -470,16 +467,14 @@
       "order_num": 5,
       "ext": ""
     },
-
-    
     {
-            "key": "套吧",
-            "name": "🔞套吧｜禁",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "jar": "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
-            "ext": "./json/套吧.json"
-        },
+      "key": "套吧",
+      "name": "🔞套吧｜禁",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "https://gitee.com/xianluyuan/jar/raw/master/xyqxbpq.jar",
+      "ext": "./json/套吧.json"
+    },
     {
       "key": "妲己",
       "name": "🔞妲己｜禁",
@@ -1489,504 +1484,655 @@
   ],
   "parses": [
     {
-			"name": "Easy解析1",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy1?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析2",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy2?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析3",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy3?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析4",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy4?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析5",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy5?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析6",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy6?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析7",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy7?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析8",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy8?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析9",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy9?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析10",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy10?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析11",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy11?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析12",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy12?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析13",
-			"type": 4,
-			"url": "https://jxc.easy123.ccwu.cc/easy13?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析14",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy14?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析15",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy15?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析16",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy16?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析17",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy17?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析18",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy18?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析19",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy19?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析20",
-			"type": 0,
-			"url": "https://jxc.easy123.ccwu.cc/easy20?pwd=qun807916734&url=",
-			"ext": {
-				"flag": ["mgtv", "qiyi", "imgo", "爱奇艺", "奇艺", "qq", "腾讯", "youku", "优酷", "pptv", "PPTV", "letv", "乐视", "leshi", "bilibili", "哔哩哔哩", "哔哩", "芒果"],
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析21",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy21?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析22",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy22?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析23",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy23?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析24",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy24?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析25",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy25?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析26",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy26?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析27",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy27?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析28",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy28?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析29",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy29?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析30",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy30?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析31",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy31?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析32",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy32?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析33",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy33?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		
-		{
-			"name": "Easy解析35",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy35?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析36",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy36?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析37",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy37?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析38",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy38?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析39",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy39?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析40",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy40?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析41",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy41?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析42",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy42?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析43",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy43?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析44",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy44?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析45",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy45?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析46",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy46?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析47",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy47?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析48",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy48?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析49",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy49?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-		},
-		{
-			"name": "Easy解析50",
-			"type": 1,
-			"url": "https://jxc.easy123.ccwu.cc/easy50?pwd=qun807916734&url=",
-			"ext": {
-				"header": {
-					"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
-				}
-			}
-	},
+      "name": "Easy解析1",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy1?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析2",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy2?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析3",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy3?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析4",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy4?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析5",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy5?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析6",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy6?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析7",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy7?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析8",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy8?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析9",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy9?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析10",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy10?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析11",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy11?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析12",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy12?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析13",
+      "type": 4,
+      "url": "https://jxc.easy123.ccwu.cc/easy13?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析14",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy14?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析15",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy15?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析16",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy16?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析17",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy17?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析18",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy18?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析19",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy19?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析20",
+      "type": 0,
+      "url": "https://jxc.easy123.ccwu.cc/easy20?pwd=qun807916734&url=",
+      "ext": {
+        "flag": [
+          "mgtv",
+          "qiyi",
+          "imgo",
+          "爱奇艺",
+          "奇艺",
+          "qq",
+          "腾讯",
+          "youku",
+          "优酷",
+          "pptv",
+          "PPTV",
+          "letv",
+          "乐视",
+          "leshi",
+          "bilibili",
+          "哔哩哔哩",
+          "哔哩",
+          "芒果"
+        ],
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析21",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy21?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析22",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy22?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析23",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy23?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析24",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy24?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析25",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy25?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析26",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy26?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析27",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy27?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析28",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy28?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析29",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy29?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析30",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy30?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析31",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy31?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析32",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy32?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析33",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy33?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析35",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy35?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析36",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy36?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析37",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy37?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析38",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy38?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析39",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy39?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析40",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy40?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析41",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy41?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析42",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy42?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析43",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy43?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析44",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy44?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析45",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy45?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析46",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy46?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析47",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy47?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析48",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy48?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析49",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy49?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
+    {
+      "name": "Easy解析50",
+      "type": 1,
+      "url": "https://jxc.easy123.ccwu.cc/easy50?pwd=qun807916734&url=",
+      "ext": {
+        "header": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0"
+        }
+      }
+    },
     {
       "name": "解析聚合",
       "type": 3,
@@ -2008,330 +2154,333 @@
       "url": "https://jx.xmflv.com/?url="
     }
   ],
-  "rules": [{
-		"cateStyle": "1",
-		"cateUrl": "video/fy{cateId}.html",
-		"list": ".module-item",
-		"listImg": ".module-item-thumb img@@data-src||src",
-		"listTitle": ".module-item-title",
-		"listUrl": "a@@href",
-		"listDesc": ".module-item-text",
-		"detailDesc": ".detail-desc",
-		"detailActor": ".detail-info li:eq(1)",
-		"detailDir": ".detail-play-list a",
-		"playUrl": ".player-frame iframe@@src",
-		"searchUrl": "search/{wd}.html",
-		"searchList": ".search-list-item",
-		"searchImg": ".search-item-pic img@@data-src||src",
-		"searchTitle": ".search-item-title"
-	}],
-	
-  "flags": [
-		"youku",
-		"优酷",
-		"优 酷",
-		"优酷视频",
-		"qq",
-		"腾讯",
-		"腾 讯",
-		"腾讯视频",
-		"iqiyi",
-		"qiyi",
-		"奇艺",
-		"爱奇艺",
-		"爱 奇 艺",
-		"m1905",
-		"xigua",
-		"letv",
-		"leshi",
-		"乐视",
-		"乐 视",
-		"sohu",
-		"搜狐",
-		"搜 狐",
-		"搜狐视频",
-		"tudou",
-		"pptv",
-		"mgtv",
-		"芒果",
-		"imgo",
-		"芒果TV",
-		"芒 果 T V",
-		"bilibili",
-		"哔 哩",
-		"哔 哩 哔 哩"
+  "rules": [
+    {
+      "cateStyle": "1",
+      "cateUrl": "video/fy{cateId}.html",
+      "list": ".module-item",
+      "listImg": ".module-item-thumb img@@data-src||src",
+      "listTitle": ".module-item-title",
+      "listUrl": "a@@href",
+      "listDesc": ".module-item-text",
+      "detailDesc": ".detail-desc",
+      "detailActor": ".detail-info li:eq(1)",
+      "detailDir": ".detail-play-list a",
+      "playUrl": ".player-frame iframe@@src",
+      "searchUrl": "search/{wd}.html",
+      "searchList": ".search-list-item",
+      "searchImg": ".search-item-pic img@@data-src||src",
+      "searchTitle": ".search-item-title"
+    }
   ],
-	"ijk": [{
-			"group": "软解码",
-			"options": [{
-					"category": 4,
-					"name": "opensles",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "overlay-format",
-					"value": "842225234"
-				},
-				{
-					"category": 4,
-					"name": "framedrop",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "soundtouch",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "start-on-prepared",
-					"value": "1"
-				},
-				{
-					"category": 1,
-					"name": "http-detect-range-support",
-					"value": "0"
-				},
-				{
-					"category": 1,
-					"name": "fflags",
-					"value": "fastseek"
-				},
-				{
-					"category": 2,
-					"name": "skip_loop_filter",
-					"value": "48"
-				},
-				{
-					"category": 4,
-					"name": "reconnect",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "enable-accurate-seek",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-auto-rotate",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-handle-resolution-change",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-hevc",
-					"value": "0"
-				},
-				{
-					"category": 1,
-					"name": "dns_cache_timeout",
-					"value": "600000000"
-				}
-			]
-		},
-		{
-			"group": "硬解码",
-			"options": [{
-					"category": 4,
-					"name": "opensles",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "overlay-format",
-					"value": "842225234"
-				},
-				{
-					"category": 4,
-					"name": "framedrop",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "soundtouch",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "start-on-prepared",
-					"value": "1"
-				},
-				{
-					"category": 1,
-					"name": "http-detect-range-support",
-					"value": "0"
-				},
-				{
-					"category": 1,
-					"name": "fflags",
-					"value": "fastseek"
-				},
-				{
-					"category": 2,
-					"name": "skip_loop_filter",
-					"value": "48"
-				},
-				{
-					"category": 4,
-					"name": "reconnect",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "enable-accurate-seek",
-					"value": "0"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-auto-rotate",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-handle-resolution-change",
-					"value": "1"
-				},
-				{
-					"category": 4,
-					"name": "mediacodec-hevc",
-					"value": "1"
-				},
-				{
-					"category": 1,
-					"name": "dns_cache_timeout",
-					"value": "600000000"
-				}
-			]
-		}
-	],
-	"ads": [
-		"static-mozai.4gtv.tv",
-		"3dcc.pjy55d.com",
-		"dpic.mkj3.cn",
-		"0314dc.0ns32h.com",
-		"www.googletagmanager.com",
-		"dpic.mkj3.cn",
-		"https://pv.sohu.com/cityjson",
-		"https://kmr.wdjptto.cn/",
-		"https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",
-		"mimg.0c1q0l.cn",
-		"www.google-analytics.com",
-		"mc.usihnbcq.cn",
-		"mg.g1mm3d.cn",
-		"mscs.svaeuzh.cn",
-		"cnzz.hhttm.top",
-		"tp.vinuxhome.com",
-		"cnzz.mmstat.com",
-		"www.baihuillq.com",
-		"s23.cnzz.com",
-		"z3.cnzz.com",
-		"c.cnzz.com",
-		"stj.v1vo.top",
-		"z12.cnzz.com",
-		"img.mosflower.cn",
-		"tips.gamevvip.com",
-		"ehwe.yhdtns.com",
-		"xdn.cqqc3.com",
-		"www.jixunkyy.cn",
-		"sp.chemacid.cn",
-		"hm.baidu.com",
-		"s9.cnzz.com",
-		"z6.cnzz.com",
-		"um.cavuc.com",
-		"mav.mavuz.com",
-		"wofwk.aoidf3.com",
-		"z5.cnzz.com",
-		"xc.hubeijieshikj.cn",
-		"tj.tianwenhu.com",
-		"xg.gars57.cn",
-		"k.jinxiuzhilv.com",
-		"cdn.bootcss.com",
-		"ppl.xunzhuo123.com",
-		"xomk.jiangjunmh.top",
-		"img.xunzhuo123.com",
-		"z1.cnzz.com",
-		"s13.cnzz.com",
-		"xg.huataisangao.cn",
-		"z7.cnzz.com",
-		"xg.huataisangao.cn",
-		"z2.cnzz.com",
-		"s96.cnzz.com",
-		"q11.cnzz.com",
-		"thy.dacedsfa.cn",
-		"xg.whsbpw.cn",
-		"s19.cnzz.com",
-		"z8.cnzz.com",
-		"s4.cnzz.com",
-		"f5w.as12df.top",
-		"ae01.alicdn.com",
-		"www.92424.cn",
-		"k.wudejia.com",
-		"vivovip.mmszxc.top",
-		"qiu.xixiqiu.com",
-		"cdnjs.hnfenxun.com",
-		"static-cdn.byteamone.cn",
-		"js2.a.yximgs.com",
-		"static.yximgs.com",
-		"api.hei17.com",
-		"cms.qdwght.com",
-		"10bet.com",
-		"1xbet.com",
-		"22bet.com",
-		"888casino.com",
-		"bet365.com",
-		"betfair.com",
-		"betonline.ag",
-		"betway.com",
-		"bovada.lv",
-		"bwin.com",
-		"casino.com",
-		"dafabet.com",
-		"draftkings.com",
-		"fanduel.com",
-		"pokerstars.com",
-		"sportybet.com",
-		"stake.com",
-		"williamhill.com",
-		"betmgm.com",
-		"coral.co.uk",
-		"pornhub.com",
-		"xvideos.com",
-		"xnxx.com",
-		"youporn.com",
-		"redtube.com",
-		"xhamster.com",
-		"chaturbate.com",
-		"bongacams.com",
-		"livejasmin.com",
-		"onlyfans.com",
-		"youjizz.com",
-		"spankbang.com",
-		"stripchat.com",
-		"cam4.com",
-		"sex.com",
-		"tube8.com",
-		"thumbzilla.com",
-		"efukt.com",
-		"pornhd.com",
-		"porntrex.com"
-	],
-  
+  "flags": [
+    "youku",
+    "优酷",
+    "优 酷",
+    "优酷视频",
+    "qq",
+    "腾讯",
+    "腾 讯",
+    "腾讯视频",
+    "iqiyi",
+    "qiyi",
+    "奇艺",
+    "爱奇艺",
+    "爱 奇 艺",
+    "m1905",
+    "xigua",
+    "letv",
+    "leshi",
+    "乐视",
+    "乐 视",
+    "sohu",
+    "搜狐",
+    "搜 狐",
+    "搜狐视频",
+    "tudou",
+    "pptv",
+    "mgtv",
+    "芒果",
+    "imgo",
+    "芒果TV",
+    "芒 果 T V",
+    "bilibili",
+    "哔 哩",
+    "哔 哩 哔 哩"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {
+          "category": 4,
+          "name": "opensles",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "overlay-format",
+          "value": "842225234"
+        },
+        {
+          "category": 4,
+          "name": "framedrop",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "soundtouch",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "start-on-prepared",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "http-detect-range-support",
+          "value": "0"
+        },
+        {
+          "category": 1,
+          "name": "fflags",
+          "value": "fastseek"
+        },
+        {
+          "category": 2,
+          "name": "skip_loop_filter",
+          "value": "48"
+        },
+        {
+          "category": 4,
+          "name": "reconnect",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "enable-accurate-seek",
+          "value": "0"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-auto-rotate",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-handle-resolution-change",
+          "value": "1"
+        },
+        {
+          "category": 4,
+          "name": "mediacodec-hevc",
+          "value": "1"
+        },
+        {
+          "category": 1,
+          "name": "dns_cache_timeout",
+          "value": "600000000"
+        }
+      ]
+    }
+  ],
+  "ads": [
+    "static-mozai.4gtv.tv",
+    "3dcc.pjy55d.com",
+    "dpic.mkj3.cn",
+    "0314dc.0ns32h.com",
+    "www.googletagmanager.com",
+    "dpic.mkj3.cn",
+    "https://pv.sohu.com/cityjson",
+    "https://kmr.wdjptto.cn/",
+    "https://lf1-cdn-tos.bytegoofy.com/obj/tos-cn-i-dy/455ccf9e8ae744378118e4bd289288dd",
+    "mimg.0c1q0l.cn",
+    "www.google-analytics.com",
+    "mc.usihnbcq.cn",
+    "mg.g1mm3d.cn",
+    "mscs.svaeuzh.cn",
+    "cnzz.hhttm.top",
+    "tp.vinuxhome.com",
+    "cnzz.mmstat.com",
+    "www.baihuillq.com",
+    "s23.cnzz.com",
+    "z3.cnzz.com",
+    "c.cnzz.com",
+    "stj.v1vo.top",
+    "z12.cnzz.com",
+    "img.mosflower.cn",
+    "tips.gamevvip.com",
+    "ehwe.yhdtns.com",
+    "xdn.cqqc3.com",
+    "www.jixunkyy.cn",
+    "sp.chemacid.cn",
+    "hm.baidu.com",
+    "s9.cnzz.com",
+    "z6.cnzz.com",
+    "um.cavuc.com",
+    "mav.mavuz.com",
+    "wofwk.aoidf3.com",
+    "z5.cnzz.com",
+    "xc.hubeijieshikj.cn",
+    "tj.tianwenhu.com",
+    "xg.gars57.cn",
+    "k.jinxiuzhilv.com",
+    "cdn.bootcss.com",
+    "ppl.xunzhuo123.com",
+    "xomk.jiangjunmh.top",
+    "img.xunzhuo123.com",
+    "z1.cnzz.com",
+    "s13.cnzz.com",
+    "xg.huataisangao.cn",
+    "z7.cnzz.com",
+    "xg.huataisangao.cn",
+    "z2.cnzz.com",
+    "s96.cnzz.com",
+    "q11.cnzz.com",
+    "thy.dacedsfa.cn",
+    "xg.whsbpw.cn",
+    "s19.cnzz.com",
+    "z8.cnzz.com",
+    "s4.cnzz.com",
+    "f5w.as12df.top",
+    "ae01.alicdn.com",
+    "www.92424.cn",
+    "k.wudejia.com",
+    "vivovip.mmszxc.top",
+    "qiu.xixiqiu.com",
+    "cdnjs.hnfenxun.com",
+    "static-cdn.byteamone.cn",
+    "js2.a.yximgs.com",
+    "static.yximgs.com",
+    "api.hei17.com",
+    "cms.qdwght.com",
+    "10bet.com",
+    "1xbet.com",
+    "22bet.com",
+    "888casino.com",
+    "bet365.com",
+    "betfair.com",
+    "betonline.ag",
+    "betway.com",
+    "bovada.lv",
+    "bwin.com",
+    "casino.com",
+    "dafabet.com",
+    "draftkings.com",
+    "fanduel.com",
+    "pokerstars.com",
+    "sportybet.com",
+    "stake.com",
+    "williamhill.com",
+    "betmgm.com",
+    "coral.co.uk",
+    "pornhub.com",
+    "xvideos.com",
+    "xnxx.com",
+    "youporn.com",
+    "redtube.com",
+    "xhamster.com",
+    "chaturbate.com",
+    "bongacams.com",
+    "livejasmin.com",
+    "onlyfans.com",
+    "youjizz.com",
+    "spankbang.com",
+    "stripchat.com",
+    "cam4.com",
+    "sex.com",
+    "tube8.com",
+    "thumbzilla.com",
+    "efukt.com",
+    "pornhd.com",
+    "porntrex.com"
+  ],
   "doh": [
     {
       "name": "Google",

@@ -8,7 +8,8 @@ from base.spider import Spider as BaseSpider
 
 class Spider(BaseSpider):
     def init(self, extend=""):
-        self.host = "https://www.ht10010.com"
+        self.host = "https://maihaolian.com"          # 主域名
+        self.backup_host = "https://www.tjtcdl.com"   # 备用域名https://www.chuodong.com
         self.headers = {
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -20,9 +21,10 @@ class Spider(BaseSpider):
 
     def homeContent(self, filter):
         return {"class": [
-            {'type_id': "/label/qq", 'type_name': "腾讯VIP精选"},
-            {'type_id': "/label/bli", 'type_name': "B站VIP精选"},
-            {'type_id': "/label/youku", 'type_name': "优酷VIP精选"},
+            {'type_id': "/label/qq", 'type_name': "腾讯VIP"},
+            {'type_id': "/label/bli", 'type_name': "B站VIP"},
+            {'type_id': "/label/youku", 'type_name': "优酷VIP"},
+            {'type_id': "/label/duanju", 'type_name': "红果短剧"},
             {"type_id": "2", "type_name": "电视剧"},
             {"type_id": "1", "type_name": "电影"},
             {"type_id": "4", "type_name": "动漫"},
@@ -284,7 +286,7 @@ class Spider(BaseSpider):
                             'cache-control': "no-cache",
                             'pragma': "no-cache",
                             'priority': "u=0, i",
-                            'referer': "https://www.ht10010.com/",
+                            'referer': self.host + '/',   # 动态跟随当前生效的域名
                             'Content-Type': 'application/x-www-form-urlencoded',
                         }
                         response = requests.get(f"https://fgsrg.hzqingshan.com/player/?url={play_url}", headers=headers)
@@ -322,12 +324,32 @@ class Spider(BaseSpider):
         return False
 
     def _fetch(self, url):
+        # 主备域名自动切换
         try:
             if not url.startswith('http'):
                 url = self.host + url
             rsp = self.fetch(url, headers=self.headers)
-            return rsp.text if rsp else ''
-        except:
+            if rsp and rsp.text:
+                return rsp.text
+            # 主站失败，尝试备用
+            if hasattr(self, 'backup_host') and self.host != self.backup_host:
+                backup_url = url.replace(self.host, self.backup_host)
+                rsp = self.fetch(backup_url, headers=self.headers)
+                if rsp and rsp.text:
+                    self.host = self.backup_host
+                    return rsp.text
+            return ''
+        except Exception as e:
+            # 异常时尝试备用
+            try:
+                if hasattr(self, 'backup_host') and self.host != self.backup_host:
+                    backup_url = url.replace(self.host, self.backup_host)
+                    rsp = self.fetch(backup_url, headers=self.headers)
+                    if rsp and rsp.text:
+                        self.host = self.backup_host
+                        return rsp.text
+            except:
+                pass
             return ''
 
     def _fix_pic(self, u):

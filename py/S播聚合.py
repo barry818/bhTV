@@ -1,13 +1,3 @@
-"""
-@header({
-  searchable: 1,
-  filterable: 1,
-  quickSearch: 1,
-  title: '色播聚合',
-  lang: 'hipy'
-})
-"""
-
 #coding=utf-8
 #!/usr/bin/python
 import sys
@@ -30,8 +20,7 @@ class Spider(Spider):
 			{
 				"vod_id": "/" + item['address'],
 				"vod_name": item['title'],
-				"vod_pic": item['xinimg'].replace("http://cdn.gcufbd.top/img/",
-												  "https://slink.ltd/https://raw.githubusercontent.com/fish2018/lib/refs/heads/main/imgs/"),
+				"vod_pic": item['xinimg'],
 				"vod_remarks": item['Number'],
 				"style": {"type": "rect", "ratio": 1.33}
 			} for item in sorted(data, key=lambda x: int(x['Number']), reverse=True)
@@ -53,7 +42,7 @@ class Spider(Spider):
 		vod = [{
 			"vod_play_from": 'sebo',
 			"vod_play_url": playUrls,
-			"vod_content": 'https://github.com/fish2018',
+			"vod_content": '简介',
 		}]
 		result = {"list": vod}
 		return result

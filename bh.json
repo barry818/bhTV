@@ -263,7 +263,9 @@
       "name": "🦋007吃瓜 | [禁]",
       "type": 3,
       "api": "./py/007吃瓜.py",
-      "category": "福利",
+      
+       "quickSearch": 1,
+      "filterable": 1,
       "searchable": 1
     },
     {
@@ -271,7 +273,9 @@
       "name": "🦋51吃瓜 | [禁]",
       "type": 3,
       "api": "./py/51吃瓜.py",
-      "category": "福利",
+      
+       "quickSearch": 1,
+      "filterable": 1,
       "searchable": 1
     },
     {
@@ -279,7 +283,9 @@
       "name": "🦋51大赛 | [禁]",
       "type": 3,
       "api": "./py/51大赛.py",
-      "category": "福利",
+      
+       "quickSearch": 1,
+      "filterable": 1,
       "searchable": 1
     },
     {
@@ -287,7 +293,9 @@
       "name": "🦋51爆料 | [禁]",
       "type": 3,
       "api": "./py/51爆料.py",
-      "category": "福利",
+      
+       "quickSearch": 1,
+      "filterable": 1,
       "searchable": 1
     },
     {
@@ -295,7 +303,9 @@
       "name": "🦋51视频 | [禁]",
       "type": 3,
       "api": "./py/51视频.py",
-      "category": "福利",
+      
+       "quickSearch": 1,
+      "filterable": 1,
       "searchable": 1
     },
     {
@@ -303,7 +313,9 @@
       "name": "🦋818黑料 | [禁]",
       "type": 3,
       "api": "./py/818黑料网.py",
-      "category": "福利",
+      
+       "quickSearch": 1,
+      "filterable": 1,
       "searchable": 1
     },
     
@@ -312,7 +324,9 @@
       "name": "🦋91吃瓜 | [禁]",
       "type": 3,
       "api": "./py/91吃瓜中心.py",
-      "category": "福利",
+      
+       "quickSearch": 1,
+      "filterable": 1,
       "searchable": 1
     },
     
